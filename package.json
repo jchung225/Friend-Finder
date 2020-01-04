@@ -1,8 +1,13 @@
 {
   "name": "friend-finder",
   "version": "1.0.0",
-  "description": "An Node.js and Express based friend matching application.",
+  "description": "",
   "main": "server.js",
+  "scripts":{
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
@@ -11,9 +16,14 @@
   "engines": {
     "node": "6.9.5"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchung225/Friend-Finder"
+  },
+  "keywords": [
+    "friend-finder",
+    "friend-match",
+    "compatibility"
+  ],
+  "homepage": "https://github.com/jchung225/Friend-Finder"
 }
