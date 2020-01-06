@@ -10,8 +10,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type: 'application/vin.api+json'}));
 
 
-require('./app/routing/apiRoutes')(app);
-require('./app/routing/htmlRoutes')(app);
+require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 app.listen(PORT, function() {
   console.log('App is listening on PORT: ' + 3000);
