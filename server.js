@@ -14,5 +14,5 @@ require('./app/routing/htmlRoutes.js')(app);
 app.use(express.static(__dirname + "/app/public"))
 
 app.listen(PORT, function() {
-  console.log('App is listening on PORT: ' + 3000);
+  console.log('App is listening on PORT: ' + PORT);
 });
